@@ -104,7 +104,8 @@ Dataset ini tergolong bersih karena tidak memiliki nilai yang hilang maupun dupl
  
 ### EDA
 - Visualisasi Univariate Analysis
-![Univariate Analysis](https://i.ibb.co/LhgZPx01/image.png)
+![Univariate Analysis](https://github.com/user-attachments/assets/17dd3e11-66e6-4dca-8f6e-45168ae17984)
+.png)
  
 ```python
 plt.figure(figsize=(15, 7))
@@ -115,7 +116,8 @@ for i in range(len(num_feature)):
 ```
  
 - Visualisasi Multivariate Analysis
-![Multivariate Analysis](https://i.ibb.co/zTdxtN6r/image.png)
+![Multivariate Analysis](https://github.com/user-attachments/assets/437df3a7-6998-4ffd-b047-5ac553a08b04)
+
 ```
 sns.pairplot(df[num_feature])
 sns.heatmap(df[num_feature].corr(), annot = True)
